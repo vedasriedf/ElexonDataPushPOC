@@ -65,6 +65,6 @@ jobs:
           app-name: 'adrelexonfunc'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E6BF63A3BC534CC6AF6100C878BEC925 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_480C318C960E491A9F3E6A2C3B3C74DE }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
